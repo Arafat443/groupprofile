@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Group Profile - Group 5</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e8f0fe;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0a58ca;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 40px;
+    }
+
+    .map-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    border: 1px solid #e8491d;
+    border-radius: 5px;
+}
+
+    .member {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .member h2 {
+      color: #0d6efd;
+    }
+
+    .profile-img {
+      width: 180px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    iframe, video, audio {
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 15px;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      padding: 10px;
+      border: 1px solid #ddd;
+      vertical-align: top;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Group Profile - Group 5</h1>
+</header>
+
+<nav>
+  <a href="#arafat">Arafat</a>
+  <a href="#gunaraj">Gunaraj</a>
+  <a href="#ramesh">Ramesh</a>
+</nav>
+
+<div class="container">
+
+  <!-- Arafat -->
+<div class="member" id="arafat">
+    <h2>Arafat Syed Yeasin</h2>
+    <div class="flex">
+      <img class="profile-img" src="1.jpeg" alt="Arafat Yeasin">
+      <div style="flex: 1;">
+        <table>
+          <tr><th>Hobby</th><td>Bike riding</td></tr>
+          <tr><th>Education</th><td>Currently pursuing Master’s in Japan</td></tr>
+          <tr><th>Work Experience</th><td>Eastern Bank Limited (Aug 2021 - April 2024)</td></tr>
+          <tr><th>Current Residence</th><td>Kyoto, Japan</td></tr>
+        </table>
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 15px;">
+          <iframe src="https://maps.google.com/maps?q=Kyoto%20Japan&t=&z=13&ie=UTF8&iwloc=&output=embed" width="70%" height="250"></iframe>
+          <iframe src="https://giphy.com/embed/i4p5eorI5khnjrEJMm" width="25%" height="434" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Gunaraj -->
+  <div class="member" id="gunaraj">
+    <h2>Gunaraj Shankar</h2>
+    <div class="flex">
+      <img class="profile-img" src="3.jpeg" alt="Gunaraj">
+      <div>
+        <p>Hi, I'm Gunaraj — a travel content creator, video editor, and IT Tourism student in Kyoto.<br>
+          I create calming nature vlogs and explore immersive Japanese culture. Originally from Nepal, I'm passionate about mindful travel and storytelling.
+        </p>
+        <table>
+          <tr><th>Hobby</th><td>Video creation, editing, and traveling</td></tr>
+          <tr><th>Education</th><td>IT Tourism Student, Kyoto, Japan</td></tr>
+        </table>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6534.083161363383!2d135.77673407493361!3d35.03068966543701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a40096db1%3A0x8c895182522ac6d1!2sThe%20Kyoto%20College%20of%20Graduate%20Studies%20for%20Informatics!5e0!3m2!1sen!2sjp!4v1719372409344!5m2!1sen!2sjp" width="45%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width="500px" height="450px" src="https://www.youtube.com/embed/LzCK2y-XudU" title="YouTube video player" frameborder="0"allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ramesh -->
+  <div class="member" id="ramesh">
+    <h2>Ramesh Adhikari</h2>
+    <div class="flex">
+      <img class="profile-img" src="2.jpeg" alt="Ramesh">
+      <div>
+        <table>
+          <tr><th>Education</th><td>Bachelor in Social Science, now pursuing Master’s in IT (Japan)</td></tr>
+          <tr><th>Hobby</th><td>Entrepreneurship & Business</td></tr>
+          <tr><th>Work Experience</th><td>Cooking — gained discipline, time management, creativity</td></tr>
+          <tr><th>Key Traits</th>
+            <td>
+              <ul>
+                <li>Positive and growth mindset</li>
+                <li>Business-oriented thinking</li>
+                <li>Cross-disciplinary adaptability</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <audio controls>
+          <source src="https://hello world.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 Group-5 | All rights reserved.
+</footer>
+
+</body>
+</html>
